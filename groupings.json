@@ -1,0 +1,165 @@
+{
+  "CMLL": {
+    "All": ["all"],
+    "AS": [
+      "CMLL AS 1",
+      "CMLL AS 2",
+      "CMLL AS 3",
+      "CMLL AS 4",
+      "CMLL AS 5",
+      "CMLL AS 6"
+    ],
+    "H": ["CMLL H 1", "CMLL H 2", "CMLL H 3", "CMLL H 4"],
+    "L": [
+      "CMLL L 1",
+      "CMLL L 2",
+      "CMLL L 3",
+      "CMLL L 4",
+      "CMLL L 5",
+      "CMLL L 6"
+    ]
+  },
+  "COLL": {
+    "All": ["all"],
+    "B": ["B1", "B2", "B3", "B4", "B5", "B6"],
+    "C": ["C1", "C2", "C3", "C4", "C5", "C6"],
+    "D": ["D1", "D2", "D3", "D4", "D5", "D6"],
+    "E": ["E1", "E2", "E3", "E4", "E5", "E6"],
+    "F": ["F1", "F2", "F3", "F4", "F5", "F6"],
+    "G": ["G1", "G2", "G3", "G4", "G5", "G6"],
+    "H": ["H1", "H2", "H3", "H4"]
+  },
+  "ELL": {
+    "All": ["all"],
+    "Ua": [
+      "4-flip Ua",
+      "BF-flip Ua",
+      "BL-flip Ua",
+      "BR-flip Ua",
+      "LF-flip Ua",
+      "RF-flip Ua",
+      "RL-flip Ua"
+    ],
+    "Ub": [
+      "4-flip Ub",
+      "BF-flip Ub",
+      "BL-flip Ub",
+      "BR-flip Ub",
+      "LF-flip Ub",
+      "RF-flip Ub",
+      "RL-flip Ub"
+    ],
+    "Z": ["4-flip Z", "FB-flip Z", "LB-flip Z", "LF-flip Z", "LR-flip Z"],
+    "H": ["4-flip H", "FB-flip H", "FR-flip H"],
+    "Edge flip": ["2-flip Adjacent", "2-flip Opposite", "4-flip"]
+  },
+  "OLL": {
+    "All": ["all"],
+    "All edges": [
+      "OLL 21",
+      "OLL 22",
+      "OLL 23",
+      "OLL 24",
+      "OLL 25",
+      "OLL 26",
+      "OLL 27"
+    ],
+    "No edges": [
+      "OLL 1",
+      "OLL 2",
+      "OLL 3",
+      "OLL 4",
+      "OLL 17",
+      "OLL 18",
+      "OLL 19",
+      "OLL 20"
+    ],
+    "All Corners": ["OLL 20", "OLL 28", "OLL 57"],
+    "Square": ["OLL 5", "OLL 6"],
+    "Small lightning": ["OLL 7", "OLL 8", "OLL 11", "OLL 12"],
+    "Knight move": ["OLL 13", "OLL 14", "OLL 15", "OLL 16"],
+    "Fish": ["OLL 9", "OLL 10", "OLL 35", "OLL 37"],
+    "Tree": ["OLL 29", "OLL 30", "OLL 41", "OLL 42"],
+    "P": ["OLL 31", "OLL 32", "OLL 43", "OLL 44"],
+    "T": ["OLL 33", "OLL 45"],
+    "C": ["OLL 34", "OLL 46"],
+    "W": ["OLL 36", "OLL 38"],
+    "Z": ["OLL 39", "OLL 40"],
+    "Triangle": ["OLL 47", "OLL 48", "OLL 49", "OLL 50", "OLL 53", "OLL 54"],
+    "Line": ["OLL 51", "OLL 52", "OLL 55", "OLL 56"]
+  },
+  "PLL": {
+    "All": ["all"],
+    "Edges": ["Ua", "Ub", "Z", "H"],
+    "Corners": ["Aa", "Ab", "E"],
+    "A": ["Aa", "Ab"],
+    "G": ["Ga", "Gb", "Gc", "Gd"],
+    "J": ["Ja", "Jb"],
+    "N": ["Na", "Nb"],
+    "R": ["Ra", "Rb"],
+    "U": ["Ua", "Ub"]
+  },
+  "WVLS": {
+    "All": ["all"],
+    "3 corners": ["WV 1"],
+    "2 corners": ["WV 2", "WV 3", "WV 4", "WV 5", "WV 6", "WV 7"],
+    "1 corner": [
+      "WV 8",
+      "WV 9",
+      "WV 10",
+      "WV 11",
+      "WV 12",
+      "WV 13",
+      "WV 14",
+      "WV 15",
+      "WV 16",
+      "WV 17",
+      "WV 18"
+    ],
+    "0 corners": [
+      "WV 20",
+      "WV 21",
+      "WV 22",
+      "WV 23",
+      "WV 24",
+      "WV 25",
+      "WV 26",
+      "WV 27"
+    ]
+  },
+  "WVLS_FL": {
+    "All": ["all"],
+    "3 corners": ["WV 1"],
+    "2 corners": ["WV 2", "WV 3", "WV 4", "WV 5", "WV 6", "WV 7"],
+    "1 corner": [
+      "WV 8",
+      "WV 9",
+      "WV 10",
+      "WV 11",
+      "WV 12",
+      "WV 13",
+      "WV 14",
+      "WV 15",
+      "WV 16",
+      "WV 17",
+      "WV 18"
+    ],
+    "0 corners": [
+      "WV 20",
+      "WV 21",
+      "WV 22",
+      "WV 23",
+      "WV 24",
+      "WV 25",
+      "WV 26",
+      "WV 27"
+    ]
+  },
+  "ZBLL_AS": { "All": ["all"] },
+  "ZBLL_H": { "All": ["all"] },
+  "ZBLL_L": { "All": ["all"] },
+  "ZBLL_Pi": { "All": ["all"] },
+  "ZBLL_S": { "All": ["all"] },
+  "ZBLL_T": { "All": ["all"] },
+  "ZBLL_U": { "All": ["all"] }
+}
