@@ -12,16 +12,20 @@ import json
 class Grouper:
     def __init__(self):
         self.algsets = ["CMLL", "COLL", "ELL", "OLL", "PLL", "WVLS", "WVLS_FL",
-                        "ZBLL_AS", "ZBLL_H", "ZBLL_L", "ZBLL_Pi", "ZBLL_S", "ZBLL_T", "ZBLL_U"]
+                        "ZBLL_AS", "ZBLL_H", "ZBLL_L", "ZBLL_Pi", "ZBLL_S", "ZBLL_T", "ZBLL_U",
+                        "CLL", "EG-1", "EG-2"]
         self.groupingInstructions = {
-            "CMLL": {"method": "contain", "AS": " AS ", "H": " H ", "L": " L "},
+            "CMLL": {"method": "contain", "AS": " AS ", "H": " H ", "L": " L ", "O": " O ", "Pi": " Pi ", "S": " S ", "T": " T ", "U": " U "},
             "COLL": {"method": "contain", "B": "B", "C": "C", "D": "D", "E": "E", "F": "F", "G": "G", "H": "H"},
             "ELL": {"method": "contain", "Ua": " Ua", "Ub": " Ub", "Z": " Z", "H": " H", "Edge flip": ["Adjacent", "Opposite"]},
             "OLL": {"method": "between", "All edges": [21, 28], "No edges": [1, 5, 17, 21], "All Corners": [20, 21, 28, 29, 57, 58], "Square": [5, 7], "Small lightning": [7, 9, 11, 13],
                     "Knight move": [13, 17], "Fish": [9, 11, 35, 36, 37, 38], "Tree": [29, 31, 41, 43], "P": [31, 33, 43, 45], "T": [33, 34, 45, 46],
                     "C": [34, 35, 46, 47], "W": [36, 37, 38, 39], "Z": [39, 41], "Triangle": [47, 51, 53, 55], "Line": [51, 53, 55, 57]},
             "PLL": {"method": "contain", "Edges": ["Ua", "Ub", "Z", "H"], "Corners": ["Aa", "Ab", "E"], "A": ["Aa", "Ab"], "G": "G", "J": "J", "N": "N", "R": "R", "U": "U"},
-            "WVLS": {"method": "between", "3 corners": [1, 2], "2 corners": [2, 8], "1 corner": [8, 19], "0 corners": [20, 28]},
+            "WVLS": {"method": "between", "3 corners": [1, 2], "2 corners": [2, 8], "1 corner": [8, 20], "0 corners": [20, 28]},
+            "CLL": {"method": "contain", "AS": " AS ", "H": " H ", "L": " L ", "Pi": " Pi ", "S": " S ", "T": " T ", "U": " U "},
+            "EG-1": {"method": "contain", "AS": " AS ", "H": " H ", "L": " L ", "Pi": " Pi ", "S": " S ", "T": " T ", "U": " U "},
+            "EG-1": {"method": "contain", "AS": " AS ", "H": " H ", "L": " L ", "Pi": " Pi ", "S": " S ", "T": " T ", "U": " U "},
         }
         self.specialCases = [["ELL", "Edge flip", "4-flip"]]
         self.groupingInstructions["WVLS_FL"] = self.groupingInstructions["WVLS"]
